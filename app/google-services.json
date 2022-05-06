@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "203906750528",
+    "firebase_url": "https://donationxtreme-default-rtdb.firebaseio.com",
+    "project_id": "donationxtreme",
+    "storage_bucket": "donationxtreme.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203906750528:android:2f9e41675861e7f545a7a5",
+        "android_client_info": {
+          "package_name": "ie.wit.donationx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203906750528-cm0k47gi3do8tufqe4f47h32sp7cp69a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ie.wit.donationx",
+            "certificate_hash": "60ec5c7b6c33b4a6d01a543af871565f6d89e918"
+          }
+        },
+        {
+          "client_id": "203906750528-7a3m6iaj2l0qjoof99o1ebnp50n3snvq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmD2yLd8nHLToNKrc-2Q8BBQ940pgnkE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "203906750528-7a3m6iaj2l0qjoof99o1ebnp50n3snvq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
