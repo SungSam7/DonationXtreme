@@ -39,7 +39,6 @@ class DonationDetailFragment : Fragment() {
             //Force Reload of list to guarantee refresh
             reportViewModel.load()
             findNavController().navigateUp()
-            //findNavController().popBackStack()
 
                 }
 

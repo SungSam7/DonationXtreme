@@ -12,4 +12,21 @@
     <color name="grey_100">#2196F3</color>
     <color name="grey_300">#E0E0E0</color>
     <color name="grey_500">#9E9E9E</color>
+
+    <color name="pink">#DB0BE3</color>
+    <color name="offset">#C8BBDF</color>
+    <color name="purple">#34166A</color>
+    <color name="grey01">#4E4848</color>
+    <color name="grey02">#777474</color>
+    <color name="grey03">#EDEDED</color>
+    <color name="purple_light">#997EC8</color>
+    <color name="subfont">#E35449</color>
+    <color name="blue">#091B80</color>
+    <color name="background">#65D9FF</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
 </resources>

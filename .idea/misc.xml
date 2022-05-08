@@ -3,7 +3,31 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Daniel/Favorites/DonationXtreme/app/src/main/res/drawable-v24/background.xml" value="0.4585" />
+        <entry key="..\:/Users/Daniel/Favorites/DonationXtreme/app/src/main/res/drawable-v24/background2.xml" value="0.4135" />
+        <entry key="..\:/Users/Daniel/Favorites/DonationXtreme/app/src/main/res/drawable-v24/custom_progress_bg.xml" value="0.4135" />
+        <entry key="..\:/Users/Daniel/Favorites/DonationXtreme/app/src/main/res/drawable-v24/ic_down_grey.xml" value="0.4135" />
+        <entry key="..\:/Users/Daniel/Favorites/DonationXtreme/app/src/main/res/drawable-v24/ic_email_grey.xml" value="0.4585" />
+        <entry key="..\:/Users/Daniel/Favorites/DonationXtreme/app/src/main/res/drawable-v24/shape_button01.xml" value="0.4135" />
+        <entry key="..\:/Users/Daniel/Favorites/DonationXtreme/app/src/main/res/drawable-v24/vertical_progress_bar.xml" value="0.4135" />
+        <entry key="..\:/Users/Daniel/Favorites/DonationXtreme/app/src/main/res/layout/activity_forgot_password.xml" value="0.41458333333333336" />
+        <entry key="..\:/Users/Daniel/Favorites/DonationXtreme/app/src/main/res/layout/activity_weather.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/Daniel/Favorites/DonationXtreme/app/src/main/res/layout/app_bar_home.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Daniel/Favorites/DonationXtreme/app/src/main/res/layout/content_home.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/Daniel/Favorites/DonationXtreme/app/src/main/res/layout/fragment_about.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/Daniel/Favorites/DonationXtreme/app/src/main/res/layout/fragment_donate.xml" value="0.315625" />
+        <entry key="..\:/Users/Daniel/Favorites/DonationXtreme/app/src/main/res/layout/fragment_donation_detail.xml" value="0.315625" />
+        <entry key="..\:/Users/Daniel/Favorites/DonationXtreme/app/src/main/res/layout/fragment_donation_detail1.xml" value="0.41458333333333336" />
+        <entry key="..\:/Users/Daniel/Favorites/DonationXtreme/app/src/main/res/layout/fragment_maps.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Daniel/Favorites/DonationXtreme/app/src/main/res/layout/fragment_report.xml" value="0.2630208333333333" />
+        <entry key="..\:/Users/Daniel/Favorites/DonationXtreme/app/src/main/res/layout/home.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Daniel/Favorites/DonationXtreme/app/src/main/res/layout/loading.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Daniel/Favorites/DonationXtreme/app/src/main/res/layout/login.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Daniel/Favorites/DonationXtreme/app/src/main/res/layout/login1.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Daniel/Favorites/DonationXtreme/app/src/main/res/layout/login2.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Daniel/Favorites/DonationXtreme/app/src/main/res/layout/nav_header.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Daniel/Favorites/DonationXtreme/app/src/main/res/layout/togglebutton_layout.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Daniel/Favorites/DonationXtreme/app/src/main/res/menu/nav_drawer_menu.xml" value="0.18802083333333333" />
       </map>
     </option>
   </component>

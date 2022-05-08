@@ -1,16 +1,11 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
     <style name="Theme.DonationX" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/color_primary</item>
-        <item name="colorPrimaryVariant">@color/color_secondary</item>
-        <item name="colorOnPrimary">@color/white</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/color_secondary</item>
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_200</item>
+        <item name="colorOnPrimary">@color/offset</item>
+        <item name="colorSecondary">@color/purple_500</item>
         <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
     </style>
 
     <style name="Theme.DonationX.NoActionBar">
@@ -22,23 +17,20 @@
 
     <style name="Theme.DonationX.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
-    <!-- START Firebase Resources-->
-    <!-- Activity with no Title -->
+
     <style name="ThemeOverlay.MyNoTitleActivity" parent="Theme.DonationX">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
-    <!-- Dark Buttons -->
     <style name="ThemeOverlay.MyDarkButton" parent="ThemeOverlay.AppCompat.Dark">
         <item name="colorButtonNormal">@color/grey_500</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">@color/purple_500</item>
         <item name="android:layout_marginRight">4dp</item>
         <item name="android:layout_marginLeft">4dp</item>
         <item name="android:textColor">@android:color/white</item>
     </style>
 
-    <!-- Light EditTexts -->
     <style name="ThemeOverlay.MyLightEditText" parent="ThemeOverlay.AppCompat.Dark"/>
 
     <style name="ThemeOverlay.MyTextDetail" parent="Theme.DonationX">
@@ -61,10 +53,9 @@
         <item name="android:gravity">center</item>
         <item name="android:textSize">30sp</item>
     </style>
-    <!-- END Firebase Resources-->
 
     <style name="toggleStyle">
-        <item name="colorControlActivated">@color/colorWhite</item>
+        <item name="colorControlActivated">@color/offset</item>
         <item name="colorControlHighlight">@color/black</item>
     </style>
 </resources>

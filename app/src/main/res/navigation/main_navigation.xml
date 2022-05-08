@@ -9,7 +9,7 @@
         android:id="@+id/donateFragment"
         android:name="ie.wit.donationx.ui.donate.DonateFragment"
         android:label="@string/action_donate"
-        tools:layout="@layout/fragment_donate" >
+        tools:layout="@layout/fragment_donate2" >
         <action
             android:id="@+id/action_donateFragment_to_reportFragment"
             app:destination="@id/reportFragment"

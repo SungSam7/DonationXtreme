@@ -26,5 +26,7 @@ class LoginRegisterViewModel (app: Application) : AndroidViewModel(app) {
     fun authWithGoogle(acct: GoogleSignInAccount) {
         firebaseAuthManager.firebaseAuthWithGoogle(acct)
     }
+
+
 }
 

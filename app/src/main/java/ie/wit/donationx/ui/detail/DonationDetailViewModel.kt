@@ -17,7 +17,6 @@ class DonationDetailViewModel : ViewModel() {
 
     fun getDonation(userid:String, id: String) {
         try {
-            //DonationManager.findById(email, id, donation)
             FirebaseDBManager.findById(userid, id, donation)
             Timber.i("Detail getDonation() Success : ${
                 donation.value.toString()}")
@@ -29,7 +28,6 @@ class DonationDetailViewModel : ViewModel() {
 
     fun updateDonation(userid:String, id: String,donation: DonationModel) {
         try {
-            //DonationManager.update(email, id, donation)
             FirebaseDBManager.update(userid, id, donation)
             Timber.i("Detail update() Success : $donation")
         }

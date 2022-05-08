@@ -11,10 +11,10 @@ data class DonationModel(
         var uid: String? = "",
         var paymentmethod: String = "N/A",
         var amount: Int = 0,
-        var message: String = "Homer for President!",
+        var message: String = "Thanks for your donation! love from DogGo!",
         var upvotes: Int = 0,
         var profilepic: String = "",
-        var email: String? = "joe@bloggs.com",
+        var email: String? = "DogGo@DogGo.com",
         var latitude: Double = 0.0,
         var longitude: Double = 0.0)
 

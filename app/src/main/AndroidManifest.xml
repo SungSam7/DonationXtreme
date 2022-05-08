@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ie.wit.donationx">
-
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -19,7 +18,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DonationX">
-
+        <activity
+            android:name=".ui.weather.WeatherActivity"
+            android:exported="false" />
+        <activity android:name=".ui.passwordreset.ForgotPasswordActivity"
+            android:exported="true"/>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -32,7 +35,8 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBI2ULsDUMSqx4XSR-QmPa5mon19Rbl2I8" />
 
-        <activity android:name=".ui.auth.Login"
+        <activity
+            android:name=".ui.auth.Login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

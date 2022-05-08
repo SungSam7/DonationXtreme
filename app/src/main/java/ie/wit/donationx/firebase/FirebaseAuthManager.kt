@@ -89,7 +89,6 @@ class FirebaseAuthManager(application: Application) {
         Timber.i( "DonationX : firebaseAuth Signed out")
         googleSignInClient.value!!.signOut()
         Timber.i( "DonationX : googleSignInClient Signed out")
-        //FirebaseImageManager.imageUri = null!!
         loggedOut.postValue(true)
         errorStatus.postValue(false)
     }
@@ -101,12 +100,10 @@ class FirebaseAuthManager(application: Application) {
         firebaseAuth!!.signInWithCredential(credential)
             .addOnCompleteListener(application!!.mainExecutor) { task ->
                 if (task.isSuccessful) {
-                    // Sign in success, update with the signed-in user's information
                     Timber.i( "signInWithCredential:success")
                     liveFirebaseUser.postValue(firebaseAuth!!.currentUser)
 
                 } else {
-                    // If sign in fails, display a message to the user.
                     Timber.i( "signInWithCredential:failure $task.exception")
                     errorStatus.postValue(true)
 

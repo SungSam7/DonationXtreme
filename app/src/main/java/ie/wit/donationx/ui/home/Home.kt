@@ -33,6 +33,7 @@ import ie.wit.donationx.utils.isPermissionGranted
 import ie.wit.donationx.utils.readImageUri
 import ie.wit.donationx.utils.showImagePicker
 import timber.log.Timber
+import ie.wit.donationx.ui.weather.WeatherActivity as WeatherActivity1
 
 class Home : AppCompatActivity() {
 
@@ -58,11 +59,9 @@ class Home : AppCompatActivity() {
         findFragmentById(R.id.nav_host_fragment) as NavHostFragment
         val navController = navHostFragment.navController
 
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
 
         appBarConfiguration = AppBarConfiguration(setOf(
-                R.id.donateFragment, R.id.reportFragment, R.id.mapsFragment, R.id.aboutFragment), drawerLayout)
+            R.id.aboutFragment, R.id.donateFragment, R.id.reportFragment, R.id.mapsFragment), drawerLayout)
         setupActionBarWithNavController(navController, appBarConfiguration)
 
         val navView = homeBinding.navView
@@ -81,7 +80,6 @@ class Home : AppCompatActivity() {
         if (isPermissionGranted(requestCode, grantResults))
             mapsViewModel.updateCurrentLocation()
         else {
-            // permissions denied, so use a default location
             mapsViewModel.currentLocation.value = Location("Default").apply {
                 latitude = 52.245696
                 longitude = -7.139102
@@ -135,7 +133,7 @@ class Home : AppCompatActivity() {
                     Timber.i("DX Loading Existing Default imageUri")
                     FirebaseImageManager.updateDefaultImage(
                             currentUser.uid,
-                            R.drawable.ic_launcher_homer,
+                            R.drawable.logo,
                             navHeaderBinding.navHeaderImage)
                 }
             }

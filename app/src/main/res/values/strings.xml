@@ -64,4 +64,6 @@
     <string name="update">Update</string>
     <string name="delete">Delete</string>
     <string name="select_profile_image">Select Profile Image</string>
+    <string name="aboutusD">DogGo! is a weather companion app, while also allowing you to donate to the DogGo! cause in which will help with the development of the app to help protect our pets.</string>
+    <string name="aboutusP">Please donate what you can, anything big or small is appreciated!</string>
 </resources>
