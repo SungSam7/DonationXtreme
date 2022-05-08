@@ -47,6 +47,8 @@ class FirebaseAuthManager(application: Application) {
 
     }
 
+
+
     fun login(email: String?, password: String?) {
         firebaseAuth!!.signInWithEmailAndPassword(email!!, password!!)
                 .addOnCompleteListener(application!!.mainExecutor) { task ->
